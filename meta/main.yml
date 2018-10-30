@@ -1,0 +1,9 @@
+galaxy_info:
+  role_name: nethesis_addrepos
+  author: Matteo Valentini
+  description: Role for add Nethesis Enterprise repositories
+  company: Nethesis srl
+  license: MIT
+  min_ansible_version: 2.4
+
+dependencies: []
