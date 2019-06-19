@@ -9,16 +9,6 @@
     enabled: "{{ repositories_enabled }}"
     http_caching: none
 
-- name: Add Nethesis - upgrades repostory
-  yum_repository:
-    name: nethesis-upgrades
-    description: Nethesis - upgrades
-    baseurl: http://packages.nethesis.it/nethserver/enterprise/\$releasever/nethesis-upgrades/\$basearch
-    gpgcheck: false
-    enablegroups: true
-    enabled: "{{ repositories_enabled }}"
-    http_caching: none
-
 - name: Add Nethesis - testing repository
   yum_repository:
     name: nethesis-testing
